@@ -28,15 +28,18 @@ vehicle_diagnostics_pytest/
 
 ## 🧪 How to Run Tests Locally
 
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/Saketh1196/vehicle_diagnostics_pytest.git
 cd vehicle_diagnostics_pytest
+```
 
-# Install dependencies
+2. Install dependencies
+```bash
 pip install -r requirements.txt
-
-# Run Tests
+```
+3. Run Tests by navigating to the mentioned folder
+```bash
 pytest
 ```
 ----
