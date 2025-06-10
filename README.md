@@ -25,22 +25,24 @@ vehicle_diagnostics_pytest/
     └── workflows/
         └── pytest.yml        # CI workflow for GitHub Actions
 ```
----
+
+## 🧪 How to Run Tests Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/Saketh1196/vehicle_diagnostics_pytest.git
+cd vehicle_diagnostics_pytest
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Tests
+pytest
+----
 ## ⚙️ Technologies Used
 
 - 🐍 Python 3.12.10
 - ✅ Pytest
 - 🔁 GitHub Actions (CI)
 - 🧪 Unit Testing
-
----
-
-## 🧪 How to Run Tests Locally
-
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Tests
-pytest
 
