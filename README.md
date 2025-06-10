@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 # Run Tests
 pytest
+
 ----
 ## ⚙️ Technologies Used
 
